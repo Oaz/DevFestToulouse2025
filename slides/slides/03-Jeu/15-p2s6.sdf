@@ -1,0 +1,41 @@
+## Partie 2 Story 6 .[user-story bigchart]
+//@ [] 00:50
+
+```plotly
+startPhase(15)
+```
+
+```plotly
+showTimer(50)
+```
+
+### "À chaque fois que l'utilisateur dit 'Air', la balle doit aller en l'air.<br>À chaque fois que l'utilisateur dit 'Rebond', la balle doit rebondir."
+
+
+```mermaid
+flowchart LR
+  Start --> Air --> BalleAir --> Start
+  Start --> Rebond --> BalleRebond --> Start
+  Start:::startStyle@{ shape: framed-circle }
+  Air(fa:fa-comment Air):::talkStyle@{ shape: curv-trap }
+  Rebond(fa:fa-comment Rebond):::talkStyle@{ shape: curv-trap }
+  BalleAir:::plainStyle@{ img: "assets/media/air.svg", h: 80, constraint: "on" }
+  BalleRebond:::plainStyle@{ img: "assets/media/rebond.svg", h: 80, constraint: "on" }
+
+  classDef plainStyle fill:none,stroke:none
+  classDef talkStyle fill:#E0A4D5,stroke:#962C82,stroke-width:1px
+  classDef startStyle fill:#9771BE,stroke:#481C75,stroke-width:2px
+```
+
+/*
+
+Un système interactif qui ne fait qu'une seule action, ça n'a pas beaucoup d'intérêt.
+
+On veut que l'utilisateur ait 2 possibilités
+À chaque fois que l'utilisateur dit 'Air', la balle va en l'air.
+À chaque fois que l'utilisateur dit 'Rebond', la balle rebondit.
+
+(mimer l'US avec les 2 cas)
+
+*/
+

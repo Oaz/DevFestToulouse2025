@@ -1,0 +1,42 @@
+## Partie 2 Story 7 .[user-story bigchart]
+//@ [] 01:00
+
+```plotly
+startPhase(16)
+```
+
+```plotly
+showTimer(60)
+```
+
+### "À chaque fois que l'utilisateur dit 'Air', la balle doit aller en l'air.<br>À chaque fois que l'utilisateur dit 'Rebond', la balle doit rebondir.<br>À chaque fois que l'utilisateur dit 'Les deux', la balle doit aller en l'air puis rebondir."
+
+```mermaid
+flowchart TD
+  Start --> Air --> BalleAir --> Start
+  Start --> Rebond --> BalleRebond --> Start
+  Start --> LesDeux --> BalleAir2 --> BalleRebond2 --> Start
+  Start:::startStyle@{ shape: framed-circle }
+  Air(fa:fa-comment Air):::talkStyle@{ shape: curv-trap }
+  Rebond(fa:fa-comment Rebond):::talkStyle@{ shape: curv-trap }
+  LesDeux(fa:fa-comment Les deux):::talkStyle@{ shape: curv-trap }
+  BalleAir:::plainStyle@{ img: "assets/media/air.svg", h: 80, constraint: "on" }
+  BalleRebond:::plainStyle@{ img: "assets/media/rebond.svg", h: 80, constraint: "on" }
+  BalleAir2:::plainStyle@{ img: "assets/media/air.svg", h: 80, constraint: "on" }
+  BalleRebond2:::plainStyle@{ img: "assets/media/rebond.svg", h: 80, constraint: "on" }
+
+  classDef plainStyle fill:none,stroke:none
+  classDef talkStyle fill:#E0A4D5,stroke:#962C82,stroke-width:1px
+  classDef startStyle fill:#9771BE,stroke:#481C75,stroke-width:2px
+```
+
+/*
+On commence à avoir un logiciel qui ressemble à quelque chose et le client en veut forcément plus.
+
+On conserve les interactions précédentes et on en rajoute une :
+À chaque fois que l'utilisateur dit 'Les deux', la balle va en l'air, puis rebondit.
+
+Si vous n'avez pas encore généralisé certaines actions, ça risque de devenir compliqué.
+
+Spoiler : pour les IA aussi ça devient compliqué.
+*/

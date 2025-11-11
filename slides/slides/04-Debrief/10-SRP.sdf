@@ -1,0 +1,13 @@
+## Single Responsibility Principle
+//@ [] 00:30
+
+!image(assets/media/swiss-knife.png, Swiss Knife, 1000)
+
+/*
+Il y a un principe connu sous le nom de principe de responsabilité unique.
+Il signifie que les composants du code, les classes, les fonctions, ne doivent pas être des couteaux suisses.
+
+Dans notre cas, il vaut mieux avoir un code qui envoie une seule fois en l'air et avoir un moyen de combiner cette opération pour avoir plusieurs envois en l'air.
+
+Les logiciels bien conçus ressemblent souvent à des constructions en legos : des briques élémentaires qui s'assemblent pour former un tout cohérent.
+*/

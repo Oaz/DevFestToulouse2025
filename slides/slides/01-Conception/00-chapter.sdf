@@ -1,0 +1,22 @@
+## Chapter 1 .[#chapter-page]
+//@ [] 01:30
+
+[[chapter]]
+
+Une bonne conception ?
+
+[[/chapter]]
+
+[[notes]]
+
+C'est quoi une bonne conception ?
+
+On va faire un rapide sondage à main levée.
+
+Qui pense qu'une bonne conception doit être tolérante aux pannes ?
+
+Qui pense qu'une bonne conception doit être scalable ?
+
+Qui pense qu'une bonne conception doit prioriser l'expérience utilisateur ?
+
+[[/notes]]

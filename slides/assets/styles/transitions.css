@@ -1,0 +1,123 @@
+
+:root {
+    --title-width: 70%;
+    --image-url: url("../media/title-image.jpg");
+    --image-width: 85%;
+    --image-slant: 80%;
+    --transition-background-color: var(--sd-primary-color);
+    --transition-foreground-color: var(--sd-background-color);
+}
+
+.transition-page {
+    background: var(--transition-background-color);
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.transition-page .image-section {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: var(--image-width);
+    background-image: var(--image-url);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, var(--image-slant) 0, 100% 100%, 0 100%);
+}
+
+.transition-page .image-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.transition-page .text-section {
+    position: absolute;
+    left: 2rem;
+    top: 0;
+    bottom: 0;
+    width: var(--title-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: normal;
+    font-style: normal;
+    color: var(--transition-foreground-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    padding: 0 2rem 5rem 2rem;
+}
+
+.transition-page .text-section p {
+    text-align: left;
+    margin:0;
+    padding:0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.transition-page .title {
+    font-size: clamp(8rem, 8vw, 50rem);
+    font-weight: bold;
+    margin: 0 0 10vh 0;
+    line-height: 1.1;
+    font-variant: small-caps;
+}
+
+.transition-page .subtitle {
+    font-size: clamp(3.5rem, 5vw, 25rem);
+    margin: 0 0 8vh 0;
+    line-height: 1.2;
+}
+
+.transition-page .author {
+    font-size: clamp(2rem, 3vw, 15rem);
+    margin: 0 0 4vh 0;
+    opacity: 0.9;
+}
+
+.transition-page .chapter {
+    font-size: clamp(8rem, 8vw, 50rem);
+    font-weight: bold;
+    margin: 0 0 30vh 0;
+    line-height: 1.1;
+    font-variant: small-caps;
+}
+
+.transition-page .icon {
+    position: absolute;
+    top: 3vh;
+    right: 2vw;
+    width: 10vh;
+    height: 10vh;
+    z-index: 3;
+}
+
+.transition-page .icon svg {
+    width: 100%;
+    height: 100%;
+    fill: var(--transition-foreground-color);
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+
+.transition-page .sign {
+    position: absolute;
+    bottom: 6rem;
+    right: 10rem;
+    height: 70%;
+    z-index: 3;
+}
+
+.transition-page .sign svg {
+    width: 100%;
+    height: 100%;
+    fill: var(--transition-foreground-color);
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}

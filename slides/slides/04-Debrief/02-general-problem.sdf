@@ -1,0 +1,16 @@
+## General Problem .[no-title]
+//@ [] 00:40
+
+!image(assets/media/generalproblem.svg, The General Problem, 1200)
+
+https://xkcd.com/974/
+
+/*
+Randall Munroe, l'auteur de XKCD, a parfaitement résumé le problème dans ce dessin.
+
+Trop souvent, on est tenté par une généralisation d'une solution avant même de savoir les problèmes que l'on aura à résoudre.
+On croit que l'on va gagner du temps dans la durée mais, en fait, on n'en sait rien.
+
+Et il ne faut pas se laisser influencer par ceux qui vous expliquent que la solution générique est une bonne idée en vous montrant des cas de figure qui servent leur propos.
+
+*/

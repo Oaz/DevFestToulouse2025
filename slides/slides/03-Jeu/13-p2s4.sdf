@@ -1,0 +1,26 @@
+## Partie 2 Story 4 .[user-story]
+//@ [] 00:30
+
+```plotly
+startPhase(13)
+```
+
+```plotly
+showTimer(30)
+```
+
+### "La balle doit aller en l'air, puis rebondir, puis à nouveau aller en l'air."
+
+<div class="imgrow">
+!image(assets/media/air.svg, Air,200)
+!image(assets/media/rebond.svg, Air,250)
+!image(assets/media/air.svg, Air,200)
+</div>
+
+
+/*
+En voyant ça, le client a compris que, ce qu'il voulait vraiment, c'est une balle qui va en l'air puis rebondit, puis va en l'air à nouveau.
+
+Comme précédemment, on pourra choisir d'utiliser un code qui fait la totalité de l'action ou combiner plusieurs robots.
+*/
+

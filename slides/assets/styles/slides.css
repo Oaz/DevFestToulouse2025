@@ -1,0 +1,161 @@
+
+
+@font-face {
+    font-family: 'Libertinus Serif';
+    src: url('../fonts/LibertinusSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libertinus Serif';
+    src: url('../fonts/LibertinusSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libertinus Serif';
+    src: url('../fonts/LibertinusSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libertinus Serif';
+    src: url('../fonts/LibertinusSerif-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+:root {
+    font-synthesis: unset;
+    font-family: 'Libertinus Serif', serif;
+}
+
+.no-title h2 {
+    display: none;
+}
+
+svg text {
+    font-family: none !important;
+}
+
+
+[data-slug="business-value"] svg {
+    height: 60vh !important;
+    max-width: none !important;
+}
+
+[data-slug="avoir-des-principes"] svg {
+    height: 60vh !important;
+    max-width: none !important;
+}
+
+.bigqr .sd-qrcode {
+    width: 30vw;
+    background: none;
+}
+
+.bigqr .sd-qrcode svg {
+    stroke: var(--sd-text-color);
+    max-height: 80vh;
+}
+
+.bigchart .language-mermaid svg {
+    max-width: none !important;
+    max-height: 50vh;
+    width: 60vw !important;
+}
+
+.mainimg img {
+    max-width: none !important;
+    max-height: 70vh;
+    width: 80vw !important;
+    margin-top: 5vh;
+}
+
+.registration pre:nth-child(2) {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    height: 1200px;
+    width: 20vw;
+}
+
+
+.user-story h2 {
+    display: none;
+}
+
+.user-story h3 {
+    margin-bottom: 10vh;
+}
+
+.user-story li {
+    margin-bottom: 1em;
+}
+
+.user-story img {
+    max-height: 50vh;
+    max-width: 70vw;
+}
+
+.user-story .imgrow {
+    display: flex;
+    gap: 5vw;
+}
+
+.user-story pre:nth-child(2) {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    height: 1200px;
+    width: 70px;
+}
+
+.user-story pre:nth-child(3) {
+    position: absolute;
+    top: 30px;
+    left: 15vw;
+    width: 90vw;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.sd-img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+.best {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    text-align: center;
+    padding: 2rem;
+}
+
+#best-score {
+    font-size: 8rem;
+    font-weight: 900;
+    color: var(--sd-text-color);
+    margin-bottom: 1rem;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+    line-height: 1;
+}
+
+#winners {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--sd-text-color);
+    padding: 1rem 2rem;
+    line-height: 1.2;
+}

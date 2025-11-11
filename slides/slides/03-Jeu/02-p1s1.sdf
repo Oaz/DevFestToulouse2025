@@ -1,0 +1,25 @@
+## Partie 1 Story 1 .[user-story]
+//@ [] 00:40
+
+```plotly
+startPhase(2)
+```
+
+```plotly
+showTimer(40)
+```
+
+!image(assets/media/game_step1.svg, Robots)
+
+- Quand je reçois la balle, je l'envoie à Bob. Coût : 3
+- Quand je reçois la balle, je l'envoie au robot qui est en face de moi. Coût : 5
+
+
+/*
+Première user story : la balle doit aller de Alice à Bob. Ça vous rappelle peut être quelque chose ?
+
+Il vous faut programmer Alice.
+Vous avez 2 choix possibles : soit le code spécifique qui coûte 3, soit le code plus générique qui coûte 5.
+
+Évidemment vous ne savez pas ce que le client va demander après. Ça on ne le sait jamais, sinon ça serait trop facile.
+*/

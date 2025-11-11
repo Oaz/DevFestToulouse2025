@@ -1,0 +1,16 @@
+## Open Closed Principle .[mainimg]
+//@ [] 00:50
+
+!image(assets/media/chaine-de-robots.svg, Chaîne de Robots)
+
+/*
+Il y a un principe qui nous prémunit contre ça quand on l'applique.
+Le principe ouvert/fermé.
+Les composants d'un logiciel doivent être ouverts aux extensions mais fermés aux modifications.
+
+On était dans une situation de tâtonnement pour trouver la bonne séquence air-air, air-rebond, air-rebond-air.
+Pondre un nouveau code à chaque fois, c'est avoir un composant logiciel complètement ouvert aux modifications et qui ne se stabilise jamais.
+
+À l'opposé, avec 2 composants, air et rebond que l'on peut assembler à l'infini via une passe à droite, on est fermé aux modifications (le code ne bouge plus) mais complètement ouvert aux extensions.
+On pourrait insérer n'importe quelle action dans la chaîne de robots.
+*/

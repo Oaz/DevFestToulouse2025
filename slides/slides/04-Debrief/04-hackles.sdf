@@ -1,0 +1,15 @@
+## Hackles .[no-title]
+//@ [] 00:30
+
+!image(assets/media/hackles.png, Hackles, 1200)
+
+/*
+Ça reste un problème dans beaucoup de bases de code : l'incapacité à monter en abstraction.
+
+On est parfois dans l'urgence. On se dit que là on peut faire un truc rapide.
+
+Parfois on est même fier et apprécié pour cela.
+On n'est pas comme ces fichus perfectionnistes qui réfléchissent trop et se font plaisir avec leurs design patterns.
+Ici, Preston, avec ses copier-coller, fait du code pourri qui finira par coûter cher.
+*/
+

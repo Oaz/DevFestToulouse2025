@@ -1,0 +1,23 @@
+## Fin du match retour
+//@ [] 01:30
+
+```plotly
+forwardAndShowHumanScores(part2)
+```
+
+### Merci de remplir le questionnaire !
+
+
+/*
+Voyons un peu les coûts observé sur ce match retour.
+(analyse rapide sachant que le coût minimum est 38 et le coût maximum est 114)
+
+
+Sur votre mobile, vous avez vos scores pour les 2 matchs et 2 liens
+
+le premier lien vous envoie vers un questionnaire
+Pour ceux qui le veulent, prenez quelques secondes pour répondre en 3 clics à 2 petites questions qui vont m'aider à améliorer ce jeu
+
+le second lien vous envoie vers le code source de cette présentation. Il y a tout, les slides, l'appli, le code pour faire jouer les IAs.
+
+*/

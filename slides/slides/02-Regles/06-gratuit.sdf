@@ -1,0 +1,13 @@
+## Un impact différent .[no-title]
+//@ [] 00:30
+
+!image(assets/media/alice_bob_step4.svg, Alice & Bob, 800)
+
+/*
+A la deuxième étape, vous pouvez prendre votre programme, sans en changer une ligne et le charger dans Bob.
+La magie du logiciel c'est que c'est immatériel et donc dupliquer un programme à l'identique ne coûte absolument rien.
+
+La balle va aller de Alice à Bob, revenir à Alice, etc.
+
+On a produit exactement la même valeur business mais ça ne nous a coûté que 5 au lieu de 6.
+*/

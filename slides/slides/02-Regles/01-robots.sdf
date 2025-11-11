@@ -1,0 +1,13 @@
+## Alice et Bob .[no-title]
+//@ [] 00:20
+
+!image(assets/media/alice_bob.svg, Alice & Bob, 1200)
+
+/*
+Je vous présente Alice et Bob.
+
+Ce sont 2 robot programmables. On va faire un jeu où vous allez les programmer avec des instructions simples pour produire une certaine valeur business.
+
+Et cette valeur business, vous l'aurez compris, il faudra qu'elle coûte le moins possible.
+Ce sera la preuve de votre bonne conception.
+*/

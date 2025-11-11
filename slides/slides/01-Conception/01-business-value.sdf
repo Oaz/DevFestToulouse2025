@@ -1,0 +1,21 @@
+## Business Value
+//@ [] 00:30
+
+```mermaid
+mindmap
+  Valeur
+    Performances
+    Tolérance aux pannes
+    Portabilité
+    Scalabilité
+    Utilisabilité
+    ...
+```
+
+/*
+On voit qu'il y a des avis qui peuvent différer. Tout le monde n'a pas levé la main à chaque fois.
+
+Car ce que l'on vient d'évoquer, ce ne sont pas des critères de bonne conception mais des critères de valeur business.
+
+Chaque produit est différent et chaque contexte valorise ce qui lui semble le plus important.
+*/

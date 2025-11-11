@@ -1,0 +1,12 @@
+## Une approche différente.[no-title]
+//@ [] 00:20
+
+!image(assets/media/alice_bob_step3.svg, Alice & Bob, 800)
+
+/*
+Mais on aurait pu faire autrement.
+
+À la première étape, vous auriez pu décider d'écrire le programme suivant "Quand je reçois la balle, je l'envoie au robot qui est en face de moi".
+
+C'est plus compliqué donc plus cher. Ça coûte 5. Mais ça a des avantages.
+*/

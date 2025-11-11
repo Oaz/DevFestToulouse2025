@@ -1,0 +1,27 @@
+## Partie 2 Story 1 .[user-story]
+//@ [] 01:00
+
+```plotly
+startPhase(10)
+```
+
+```plotly
+showTimer(60)
+```
+
+### "La balle doit aller en l'air"
+
+!image(assets/media/air.svg, Air,300)
+
+/*
+Première histoire utilisateur, la balle doit aller en l'air et c'est tout.
+
+(mimer l'US avec la balle)
+
+Vous avez tout un choix de codes possibles. Vous pouvez choisir plusieurs codes.
+Un seul devrait vous suffire pour cette première histoire mais il vous faut faire un choix.
+
+À noter : si le bouton de confirmation reste grisé, c'est que votre choix ne permet pas de produire la valeur souhaitée.
+*/
+
+

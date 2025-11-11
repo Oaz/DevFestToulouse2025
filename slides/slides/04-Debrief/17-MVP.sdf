@@ -1,0 +1,11 @@
+## MVP
+//@ [] 00:30
+
+<div class="best">
+<div id="best-score">0</div>
+<div id="winners">-</div>
+</div>
+
+/*
+Les humains sortent largement vainqueurs de ce match retour.
+*/

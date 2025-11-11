@@ -1,0 +1,22 @@
+## Partie 1 Story 6 .[user-story]
+//@ [] 00:20
+
+```plotly
+startPhase(7)
+```
+
+```plotly
+showTimer(20)
+```
+
+!image(assets/media/game_step6.svg, Robots)
+
+- Quand je reçois la balle, je l'envoie à Alice. Coût : 3
+- Quand je reçois la balle, je l'envoie au robot qui est à droite de moi. Coût : 5
+
+/*
+Le client se dit que ça serait bien que la balle boucle en revenant à Alice après être passée par Fred.
+
+Alice étant à droite de Fred, il se peut que vous ayez déjà un code générique correspondant, sinon il vous faut faire un choix.
+
+*/

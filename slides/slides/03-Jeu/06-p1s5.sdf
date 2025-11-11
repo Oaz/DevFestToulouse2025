@@ -1,0 +1,21 @@
+## Partie 1 Story 5 .[user-story]
+//@ [] 00:20
+
+```plotly
+startPhase(6)
+```
+
+```plotly
+showTimer(20)
+```
+
+!image(assets/media/game_step5.svg, Robots)
+
+- Quand je reçois la balle, je l'envoie à Fred. Coût : 3
+- Quand je reçois la balle, je l'envoie au robot qui est à droite de moi. Coût : 5
+
+/*
+En fait, le client voudrait bien une amélioration supplémentaire : la balle doit arriver à Fred, un sixième robot.
+
+Fred étant à droite de Ève, il se peut que vous ayez déjà un code générique correspondant, sinon il vous faut faire un choix.
+*/

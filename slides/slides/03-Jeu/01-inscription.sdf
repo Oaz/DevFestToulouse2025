@@ -1,0 +1,19 @@
+## On se connecte ! .[registration bigqr]
+//@ [] 01:00
+
+```plotly
+startPart(1)
+```
+
+<div class='sd-qrcode' data-url='https://devfest2025.azeau.com/'></div>
+
+https://devfest2025.azeau.com/
+
+/*
+
+Scannez le QR code ou entrez l'url. Mettez votre prénom ou un pseudonyme et vous êtes prêts.
+
+Un certain nombre d'IAs, des LLMs, ont joué exactement au même jeu avec les mêmes problèmes de conception et on verra ce qu'elles auront répondu.
+
+Une dernière info avant de commencer : les questions risquent de s'enchainer assez vite. Soyez réactifs.
+*/

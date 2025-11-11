@@ -1,0 +1,16 @@
+## Un autre incrément de valeur .[no-title]
+//@ [] 00:30
+
+### "La balle doit aller de Alice à Bob, puis revenir à Alice, puis à Bob, etc."
+
+!image(assets/media/alice_bob_step2.svg, Alice & Bob, 800)
+
+/*
+Les utilisateurs sont contents. On a produit la valeur souhaitée.
+
+Mais un client content, il revient et là il dit : "En fait, ce qui serait bien c'est que quand la balle arrive sur Bob, elle reparte sur Alice, puis sur Bob, etc."
+
+Pas de problème vous écrivez un nouveau programme "Quand je reçois la balle, je l'envoie à Alice" et vous le chargez dans Bob.
+
+Et ça fonctionne ! Au total, cela vous aura coûté 3+3=6.
+*/

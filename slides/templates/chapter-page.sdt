@@ -1,0 +1,15 @@
+<div class="transition-page">
+    <div class="text-section">
+        <div class="chapter"><sd-chapter /></div>
+    </div>
+
+    <div class="sign">
+        <svg viewBox="0 0 500 700">
+            <polygon points="0,630 430,630 430,0 500,0 500,700 0,700" />
+        </svg>
+    </div>
+</div>
+
+<aside class="sd-notes">
+<sd-notes />
+</aside>

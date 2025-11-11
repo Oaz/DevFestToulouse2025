@@ -1,0 +1,31 @@
+## Partie 2 Story 2 .[user-story]
+//@ [] 00:40
+
+```plotly
+startPhase(11)
+```
+
+```plotly
+showTimer(40)
+```
+
+### "La balle doit aller en l'air deux fois."
+
+<div class="imgrow">
+!image(assets/media/air.svg, Air,200)
+!image(assets/media/air.svg, Air,200)
+</div>
+
+- Un robot ne peut contenir qu'un seul code.
+- Quand un robot "rattrape" une balle, il ne la "reçoit" pas<br>
+donc le code "Quand je reçois la balle, je l'envoie en l'air" seul<br>
+ne permet pas d'envoyer la balle en l'air deux fois.
+
+/*
+Deuxième histoire utilisateur, la balle doit aller en l'air deux fois.
+Plusieurs possibilités : soit un code qui fait 2 fois l'envoi en l'air avec un seul robot, soit combiner l'action de plusieurs robots.
+
+Attention :
+- un robot ne peut contenir au maximum qu'un seul code. si vous voulez utiliser plusieurs codes, il vous faut plusieurs robots.
+- Le code simple "Quand je reçois la balle, je l'envoie en l'air", que vous avez peut être déjà payé, ne permet pas d'envoyer la balle en l'air deux fois car le robot qui "rattrape" une balle qu'il a lui même envoyée en l'air ne "recoit" pas cette balle d'un autre robot.
+*/

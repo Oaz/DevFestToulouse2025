@@ -1,0 +1,9 @@
+.idea/
+.venv/
+go.work.sum
+output/
+node_modules/
+dist/
+llm/.env
+slides/plugins/
+slides/public/

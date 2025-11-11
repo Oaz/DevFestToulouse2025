@@ -1,0 +1,26 @@
+## Partie 2 Story 3 .[user-story]
+//@ [] 00:40
+
+```plotly
+startPhase(12)
+```
+
+```plotly
+showTimer(40)
+```
+
+### "La balle doit aller en l'air puis rebondir"
+
+<div class="imgrow">
+!image(assets/media/air.svg, Air,200)
+!image(assets/media/rebond.svg, Air,250)
+</div>
+
+/*
+Le client a changé d'avis ! En fait il ne veut pas que la balle aille 2 fois en l'air.
+Il veut qu'elle aille en l'air puis qu'elle rebondisse.
+
+Évidemment, il faudra du code pour la faire explicitement rebondir car un robot qui envoie la balle en l'air la rattrape et ne la laisse pas, par défaut, rebondir.
+
+Là encore, on peut soit utiliser un code qui va faire les 2 actions avec un seul robot, soit combiner l'action de plusieurs robots.
+*/

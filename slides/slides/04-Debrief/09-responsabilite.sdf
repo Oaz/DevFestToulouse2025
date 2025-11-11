@@ -1,0 +1,22 @@
+## Responsabilité
+//@ [] 00:50
+
+```plotly
+compareChoices(part2, [
+["Un seul robot qui envoie 2 fois en l'air",[["SF",11]]],
+["Une combinaison de 2 robots (passe à droite)",[["SE",11],["SE",10]]],
+["Plusieurs appels au même robot (retour à l'envoyeur)",[["SD",11],["SD",10]]]
+])
+```
+
+/*
+Passons au match retour et plus précisément au moment où on veut que la balle aille 2 fois en l'air.
+
+On avait 3 possibilités.
+- soit on fait avec un seul robot dont le code fait 2 envois en l'air, le choix bleu
+- soit on aligne 2 robots qui envoient en l'air et passent à droite, le choix orange
+- soit on boucle indéfiniment sur un robot qui envoie en l'air, retourne à l'envoyeur et on a un 2ème robot qui lui renvoie la balle, le choix vert
+
+Les IA ont très majoritairement choisi un seul robot. C'est pas génial car ça utilise un code qui ne va plus jamais servir.
+On aurait pu détecter que ce choix bleu était une mauvaise idée.
+*/

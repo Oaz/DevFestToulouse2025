@@ -1,0 +1,15 @@
+## Un incrément de valeur .[no-title]
+//@ [] 00:30
+
+!image(assets/media/alice_bob_step1.svg, Alice & Bob, 800)
+
+NB : quand la balle arrive sur un robot, il la rattrape<br>
+Inutile de le programmer car c'est codé en dur dans tous les robots.
+
+/*
+Une façon de faire, c'est de charger dans Alice un programme qui dit "Quand je reçois la balle, je l'envoie à Bob".
+
+Ce programme coûte 3. Pourquoi 3 ? Parce que c'est le relatif à la taille de la phrase et à sa complexité, son nombre de verbes.
+
+Ces robots sont bien fichus. Ils ont quelques fonctions hardcodées, notamment le fait de rattraper une balle quand elle leur arrive dessus, donc dans ce scénario, il est inutile de charger un programme dans Bob.
+*/

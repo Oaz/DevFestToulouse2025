@@ -1,0 +1,28 @@
+## Partie 1 Story 4 .[user-story]
+//@ [] 00:30
+
+```plotly
+startPhase(5)
+```
+
+```plotly
+showTimer(30)
+```
+
+!image(assets/media/game_step4.svg, Robots)
+
+- Quand je reçois la balle, je l'envoie à Ève. Coût : 3
+- Quand je reçois la balle, je l'envoie au robot qui est à droite de moi. Coût : 5
+
+
+/*
+Il faut maintenant que la balle arrive jusqu'à Ève, un cinquième robot.
+
+On a toujours le choix entre un code spécifique et un code générique.
+Ève étant à droite de David, il est possible que vous ayez déjà le code générique.
+Dans ce cas vous n'ayez rien à payer.
+
+Pour les autres, il faut faire un choix.
+Bien sûr, on ne sait pas si le client voudra d'autres améliorations.
+*/
+

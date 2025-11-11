@@ -1,0 +1,86 @@
+## Une bonne conception
+//@ [] 00:50
+
+```plotly
+function plot() {
+    const transparent = 'rgba(0,0,0,0)';
+    const xtarget = 6.5;
+    const ytarget = 31;
+    const line_style = {
+          color: 'red',
+          width: 8,
+          dash: 'dash'
+      };
+    return {
+               data: [
+                   {
+                       x: [0, 1, 2, 3,  4,  5,  6,  7,  8],
+                       y: [0, 1, 4, 7, 13, 15, 24, 38, 41],
+                       type: 'scatter',
+                       mode: 'lines+markers',
+                       line: {
+                           width: 10
+                       },
+                       marker: {
+                           size: 25
+                       }
+                   }
+               ],
+               layout: {
+                   paper_bgcolor: transparent,
+                   plot_bgcolor: transparent,
+                   xaxis: { title: { text: 'Temps + Coût' } },
+                   yaxis: { title: { text: 'Valeur' } },
+                   width: 1200,
+                   height: 600,
+                   shapes: [
+                       {
+                           type: 'line',
+                           x0: 0,
+                           y0: ytarget,
+                           x1: xtarget,
+                           y1: ytarget,
+                           line: line_style
+                       },
+                       {
+                           type: 'line',
+                           x0: xtarget,
+                           y0: 0,
+                           x1: xtarget,
+                           y1: ytarget,
+                           line: line_style
+                       }
+                   ],
+                   annotations: [
+                       {
+                           y: ytarget,
+                           text: 'Minimise le temps+coût<br>pour produire une valeur fixée',
+                           showarrow: false,
+                           yanchor: 'bottom',
+                           bgcolor: transparent
+                       },
+                       {
+                           x: xtarget,
+                           y: 15,
+                           text: 'Maximiser la valeur<br>produite pour un<br>temps+coût fixé',
+                           showarrow: false,
+                           textangle: -90,
+                           xanchor: 'left',
+                           bgcolor: transparent
+                       }
+                   ]
+               }
+           }
+}
+
+```
+
+/*
+A partir de là, une définition possible pour une bonne conception, c'est, pour une valeur fixée, de minimiser le t+c.
+
+Ou bien, de manière équivalente, maximiser la valeur produite pour un t+c fixé. C'est ce que l'on fait quand on travaille en itérations : on se fixe une date, on connait le coût et on tente de maximiser la valeur produite.
+
+C'est la définition de bonne conception que l'on va utiliser pendant cette présentation.
+C'est assez difficile de s'y opposer. Personne ne va dire : moi je fais une bonne conception mais ça va coûter plus cher pour produire exactement la même valeur.
+N'allez pas dire ça à votre boss.
+*/

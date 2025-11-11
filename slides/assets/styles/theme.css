@@ -1,0 +1,83 @@
+:root {
+    /* https://paletton.com/#uid=74y0u0kiBu68HNvdZBSmyqgqhlJ */
+    --palette-1-darker: #481C75;
+    --palette-1-dark: #5F318D;
+    --palette-1-medium: #764BA2;
+    --palette-1-light: #9771BE;
+    --palette-1-lighter: #C0A5DC;
+    --palette-2-darker: #7C1669;
+    --palette-2-dark: #962C82;
+    --palette-2-medium: #AC4899;
+    --palette-2-light: #C670B6;
+    --palette-2-lighter: #E0A4D5;
+    --palette-3-darker: #87A51E;
+    --palette-3-dark: #A8C83B;
+    --palette-3-medium: #C7E560;
+    --palette-3-light: #DEF68B;
+    --palette-3-lighter: #EBFAB6;
+    --palette-4-darker: #ADA41F;
+    --palette-4-dark: #D1C83E;
+    --palette-4-medium: #F0E764;
+    --palette-4-light: #FFF890;
+    --palette-4-lighter: #FFFBBA;
+
+    --sd-heading1-size: 8.5vw;
+    --sd-heading1-line-height: 1;
+    --sd-heading2-size: 5vw;
+    --sd-heading2-line-height: 1;
+    --sd-text-size: 2.2vw;
+    --sd-text-line-height: 1.2;
+    --sd-caption-font-size: 1vw;
+    --sd-caption-line-height: 1;
+
+    --sd-background-color: var(--palette-4-lighter);
+    /*--sd-heading-color: rgba(36, 36, 36, 0.97);*/
+    --sd-heading-color: var(--palette-1-darker);
+    /*--sd-text-color: rgba(36, 36, 36, 0.87);*/
+    --sd-text-color: var(--palette-1-darker);
+    --sd-primary-color: var(--palette-1-medium);
+    --sd-caption-color: rgba(255, 255, 255, 0.7);
+    --sd-caption-bgcolor: rgba(36, 36, 36, 0.7);
+
+    --humans-foreground-color: var(--palette-2-dark);
+    --humans-background-color: var(--palette-2-lighter);
+    --ai-foreground-color: var(--palette-3-darker);
+    --ai-background-color: var(--palette-3-light);
+
+    --timer-dark-color: var(--palette-2-darker);
+    --timer-light-color: var(--palette-2-lighter);
+
+    --util-dark-color: var(--palette-4-darker);
+    --util-light-color: var(--palette-4-medium);
+
+    /* SpeakerView */
+    --sd-sv-timer-size: 80px;
+    --sd-sv-text-size: 30px;
+    --sd-sv-text-line-height: 1.2;
+    --sd-sv-background-color: #242424;
+    --sd-sv-text-color: rgba(255, 255, 255, 0.87);
+}
+
+.speaker {
+    img {
+        border: 2px solid var(--sd-primary-color);
+        border-radius: 100%;
+    }
+}
+
+.chapter {
+    h2 {
+        color: var(--sd-primary-color);
+    }
+}
+
+.split {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.split > div {
+    width: 50%;
+    padding: 1vh 1vw;
+}

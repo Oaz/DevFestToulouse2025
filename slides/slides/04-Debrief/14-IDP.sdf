@@ -1,0 +1,16 @@
+## Dépendances .[mainimg]
+//@ [] 00:30
+
+!image(assets/media/dependencies-not-inverted.svg, Dépendances)
+
+/*
+Ce composant central, qui, si on le poussait jusqu'au bout, devait forcément être Ève est DÉPENDANT de l'ensemble du système.
+
+Il doit savoir que Alice va envoyer la balle en l'air et la lui renvoyer
+
+Il doit savoir que Claire va initier la séquence air-rebond avant que la balle lui revienne.
+
+Et on est obligé de modifier son code à chaque fois que l'on veut introduire une nouvelle action utilisateur.
+
+Dans la durée, ce composant coûte très cher à maintenir.
+*/

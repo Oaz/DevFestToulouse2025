@@ -1,0 +1,14 @@
+## Un jeu de balle .[no-title]
+//@ [] 00:20
+
+### "La balle doit aller de Alice à Bob"
+
+!image(assets/media/alice_bob_up.svg, Alice & Bob, 800)
+
+/*
+Comment on programme ces robots ?
+
+Imaginons que la valeur à produire est le fait de faire circuler une balle de l'endroit où se trouve Alice vers l'endroit où se trouve Bob.
+
+On a nos robots en vue aérienne et on veut programmer Alice pour qu'elle envoie la balle à Bob.
+*/

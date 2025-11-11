@@ -1,0 +1,23 @@
+## Copier Coller
+//@ [] 00:30
+
+```plotly
+compareTrends(part1, [
+["Bob","RB",2],
+["Claire","RD",3],
+["David","RF",4],
+["Ève","RH",5],
+["Fred","RI",6],
+["Alice","RA",7],
+])
+```
+
+Proportions de choix "copier coller" par rapport à la totalité des réponses
+
+/*
+Il ne faut pas généraliser trop vite mais on a aussi le problème miroir : quand on tarde trop à généraliser.
+
+Il y a des développeurs qui font le choix de copier coller le code en changeant des détails, ici en changeant juste le nom du robot à qui la balle est envoyée.
+
+Les IAs ont été assez raisonnables : au fil du temps, la proportion de copier coller diminue.
+*/

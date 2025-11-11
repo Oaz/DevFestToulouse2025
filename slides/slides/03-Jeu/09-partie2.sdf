@@ -1,0 +1,20 @@
+## Match retour ! .[registration bigqr]
+//@ [] 00:40
+
+```plotly
+startPart(9)
+```
+
+<div class='sd-qrcode' data-url='https://devfest2025.azeau.com/'></div>
+
+https://devfest2025.azeau.com/
+
+/*
+Si des personnes n'ont pas pu participer au match aller, elles peuvent se connecter et jouer le match retour car on repart d'une base de code vide.
+
+Pour les autres on patiente un petit peu.
+
+ATTENTION
+La difficulté va augmenter pour ce match retour car on va vous laisser le choix des robots à utiliser. Vous en avez un nombre illimité.
+Les robots ne coutent rien : seul le code que l'on charge dans les robots a un coût.
+*/

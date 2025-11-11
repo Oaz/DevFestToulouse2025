@@ -1,2 +1,2 @@
-# DevFestToulouse2025
-Code associé à "Conception de Logiciels, le match humains vs AI" au DevFest Toulouse 2025
+Les slides et le code du talk [_Conception de logiciels : le match humains vs AI_](https://devfesttoulouse.fr/conferences/conception-de-logiciels-le-match-humains-vs-ai/) au DevFest Toulouse 2025.
+

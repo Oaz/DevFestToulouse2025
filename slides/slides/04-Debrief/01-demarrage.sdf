@@ -1,0 +1,18 @@
+## Démarrage
+//@ [] 00:40
+
+```plotly
+compareChoices(part1, [
+["Quand je reçois la balle, je l'envoie à Bob",[["RB",2]]],
+["Quand je reçois la balle, je l'envoie au robot qui est en face de moi",[["RC",2]]]
+])
+```
+
+/*
+Souvenez vous du tout premier choix pour Alice : envoyer simplement à Bob ou envoyer au robot qui est en face.
+
+Les IAs ont massivement fait le choix de la solution la plus directe et elles ont eu raison.
+
+Ici, le code générique "envoyer au robot qui est en face" ne va JAMAIS servir à nouveau.
+C'était donc un choix prématuré.
+*/

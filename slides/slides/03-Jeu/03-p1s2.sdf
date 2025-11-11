@@ -1,0 +1,27 @@
+## Partie 1 Story 2 .[user-story]
+//@ [] 00:30
+
+```plotly
+startPhase(3)
+```
+
+```plotly
+showTimer(30)
+```
+
+!image(assets/media/game_step2.svg, Robots)
+
+- Quand je reçois la balle, je l'envoie à Claire. Coût : 3
+- Quand je reçois la balle, je l'envoie au robot qui est à droite de moi. Coût : 5
+
+
+/*
+Le client a un troisième robot, qui s'appelle Claire. Il aimerait bien que quand la balle arrive sur Bob, elle parte sur Claire.
+
+(mimer l'US avec la balle)
+
+Il vous faut programmer Bob.
+Là encore, vous avez 2 choix possibles :
+soit le code spécifique, envoyer la balle à Claire, qui coûte 3
+soit le code plus générique, envoyer la balle au robot qui se trouve à droite, car Claire est à droite de Bob, qui coûte 5.
+*/

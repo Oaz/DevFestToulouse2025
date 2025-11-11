@@ -1,0 +1,18 @@
+## Un coup d'oeil aux scores
+//@ [] 00:30
+
+```plotly
+forwardAndShowHumanScores(part1)
+```
+
+/*
+Vous venez de produire de la valeur au travers de 6 histoires utilisateur.
+
+Voici les coûts constatés pour vos conceptions.
+Votre coût personnel s'affiche sur votre écran.
+(analyse rapide sachant que le coût minimum est 11 et le coût maximum est 33)
+
+Des IAs ont fait le même test et on verra plus tard si elles ont fait mieux ou moins bien.
+
+Mais, pendant que tout le monde est chaud, on va faire une nouvelle séquence de jeu en augmentant la difficulté.
+*/

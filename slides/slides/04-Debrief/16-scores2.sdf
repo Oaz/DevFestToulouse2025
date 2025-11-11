@@ -1,0 +1,21 @@
+## Résultats du match retour
+//@ [] 00:40
+
+```plotly
+showHumanScores(part2)
+```
+
+```plotly
+showAiScores(part2)
+```
+
+/*
+Le résultat du match retour est très clair. Les IAs se sont complètement plantées.
+
+En fait, plus de 4 IA sur 5 n'ont pas réussi à terminer le match. et ont eu le coût maximal.
+
+Les rares qui ont réussi à terminer sont les gpt-5, standard ou mini, gemini 2.5, en version pro ou flash et qwen 3.
+Codegemma a réussi une fois mais c'était un peu par hasard.
+
+Claude -toutes les version opus, sonnet, 4, 4.5- est dans ceux qui n'ont pas su résoudre le problème.
+*/

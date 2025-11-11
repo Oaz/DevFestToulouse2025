@@ -1,0 +1,24 @@
+## Quand faut-il généraliser ?
+//@ [] 00:30
+
+```plotly
+compareRelativeTrends(part1, [
+["1ère occurrence","RE",3],
+["2ème occurrence","RE",5],
+["3ème occurrence","RE",6],
+["4ème occurrence","RE",7],
+])
+```
+
+Proportions de choix de généralisation "passe à droite"\
+parmi les réponses n'ayant pas encore généralisé
+
+/*
+La question difficile est de savoir quand généraliser.
+
+A la 1ère occurrence, quand on ne sait pas encore ce qui va suivre ? Certains ont fait ce choix.
+
+A la 2ème occurrence, quand on voit schéma qui se répète ? Mais c'est peut être une coïncidence.
+
+A la 3ème occurrence ? A la 4ème ?
+*/

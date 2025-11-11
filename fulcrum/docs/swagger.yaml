@@ -1,0 +1,395 @@
+basePath: /
+definitions:
+  api.CompletionRequest:
+    properties:
+      phase_id:
+        type: integer
+    type: object
+  api.CompletionResponse:
+    properties:
+      completed_count:
+        type: integer
+      total_players:
+        type: integer
+    type: object
+  api.ForwardRequest:
+    properties:
+      admin_password:
+        type: string
+      phase_id:
+        type: integer
+    type: object
+  api.RegisterRequest:
+    properties:
+      username:
+        type: string
+    type: object
+  api.RegisterResponse:
+    properties:
+      phase_id:
+        type: integer
+      player_id:
+        type: integer
+      secret:
+        type: string
+      username:
+        type: string
+    type: object
+  api.ResultsRequest:
+    properties:
+      admin_password:
+        type: string
+      phase_id:
+        type: integer
+    type: object
+  api.ResultsResponse:
+    properties:
+      phase_id:
+        type: integer
+      results:
+        items:
+          $ref: '#/definitions/ports.PlayerResult'
+        type: array
+    type: object
+  api.SelectRequest:
+    properties:
+      asset_ids:
+        items:
+          type: string
+        type: array
+      phase_id:
+        type: integer
+      player_id:
+        type: integer
+      secret:
+        type: string
+    type: object
+  api.SelectResponse:
+    properties:
+      message:
+        type: string
+      success:
+        type: boolean
+    type: object
+  api.StatusRequest:
+    properties:
+      player_id:
+        type: integer
+      secret:
+        type: string
+    type: object
+  api.StatusResponse:
+    properties:
+      current_phase:
+        type: integer
+      scores:
+        items:
+          type: integer
+        type: array
+      selected_assets:
+        items:
+          type: string
+        type: array
+    type: object
+  ports.PlayerResult:
+    properties:
+      assets:
+        additionalProperties:
+          type: integer
+        type: object
+      id:
+        type: integer
+      name:
+        type: string
+      score:
+        type: integer
+    type: object
+host: localhost:8080
+info:
+  contact: {}
+  description: API Server for Game Application
+  title: Game API
+  version: "1.0"
+paths:
+  /completion:
+    post:
+      consumes:
+      - application/json
+      description: Get the number of players who have completed a specific phase and
+        total player count
+      parameters:
+      - description: Phase ID to check completion for
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/api.CompletionRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api.CompletionResponse'
+        "400":
+          description: Bad request
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Internal server error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Get phase completion statistics
+      tags:
+      - phases
+  /forward:
+    post:
+      consumes:
+      - application/json
+      description: Move the game forward to the specified phase
+      parameters:
+      - description: Forward request details
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/api.ForwardRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Bad request
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "422":
+          description: Unprocessable Content
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Internal server error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Advance the game to a new phase
+      tags:
+      - admin
+  /ping:
+    get:
+      consumes:
+      - application/json
+      description: Get a pong response to verify the API is running
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Ping the API
+      tags:
+      - health
+  /register:
+    post:
+      consumes:
+      - application/json
+      description: Register a new player with a username and get back a player ID
+        and secret
+      parameters:
+      - description: Player registration details
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/api.RegisterRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api.RegisterResponse'
+        "400":
+          description: Bad request
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "422":
+          description: Unprocessable Content
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Internal server error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Register a new player
+      tags:
+      - players
+  /results:
+    post:
+      consumes:
+      - application/json
+      description: Get all players' statuses for the specified phase (requires admin
+        password)
+      parameters:
+      - description: Admin credentials and phase ID
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/api.ResultsRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api.ResultsResponse'
+        "400":
+          description: Bad request
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "422":
+          description: Unprocessable Content
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Internal server error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Get all players' status information for a specific phase (admin only)
+      tags:
+      - admin
+  /select:
+    post:
+      consumes:
+      - application/json
+      description: Process a player's asset selection for the current phase
+      parameters:
+      - description: Player selection details
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/api.SelectRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api.SelectResponse'
+        "400":
+          description: Bad request
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "422":
+          description: Unprocessable Content
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Internal server error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Select assets for a player
+      tags:
+      - players
+  /status:
+    post:
+      consumes:
+      - application/json
+      description: Get the current game phase and player's asset selections
+      parameters:
+      - description: Player credentials
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/api.StatusRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api.StatusResponse'
+        "400":
+          description: Bad request
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "422":
+          description: Unprocessable Content
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Internal server error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Get player status information
+      tags:
+      - players
+  /ws:
+    get:
+      consumes:
+      - application/json
+      description: Establishes a WebSocket connection for real-time communication
+      parameters:
+      - description: Player identifier
+        in: query
+        name: player_id
+        type: string
+      produces:
+      - application/json
+      responses:
+        "101":
+          description: Switching Protocols to websocket
+          schema:
+            type: string
+        "400":
+          description: Bad request
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: WebSocket connection endpoint
+      tags:
+      - websocket
+swagger: "2.0"

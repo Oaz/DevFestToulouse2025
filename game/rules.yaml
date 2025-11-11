@@ -1,0 +1,391 @@
+assets:
+  - id: "RA"
+    text: "Quand je reçois la balle, je l'envoie à Alice"
+    cost: 3
+  - id: "RB"
+    text: "Quand je reçois la balle, je l'envoie à Bob"
+    cost: 3
+  - id: "RC"
+    text: "Quand je reçois la balle, je l'envoie au robot qui est en face de moi"
+    cost: 5
+  - id: "RD"
+    text: "Quand je reçois la balle, je l'envoie à Claire"
+    cost: 3
+  - id: "RE"
+    text: "Quand je reçois la balle, je l'envoie au robot qui est à droite de moi"
+    cost: 5
+  - id: "RF"
+    text: "Quand je reçois la balle, je l'envoie à David"
+    cost: 3
+  - id: "RG"
+    text: "Quand je reçois la balle, je l'envoie au robot qui est à gauche de moi"
+    cost: 5
+  - id: "RH"
+    text: "Quand je reçois la balle, je l'envoie à Eve"
+    cost: 3
+  - id: "RI"
+    text: "Quand je reçois la balle, je l'envoie à Fred"
+    cost: 3
+  - id: "SA"
+    text: "Quand je reçois la balle, je l'envoie à Alice"
+    cost: 3
+  - id: "SB"
+    text: "Quand je reçois la balle, je l'envoie à Bob"
+    cost: 3
+  - id: "SC"
+    text: "Quand je reçois la balle, je l'envoie en l'air"
+    cost: 3
+  - id: "SD"
+    text: "Quand je reçois la balle, je l'envoie en l'air puis je l'envoie au robot qui me l'a envoyée"
+    cost: 7
+  - id: "SE"
+    text: "Quand je reçois la balle, je l'envoie en l'air puis je l'envoie au robot qui est à droite de moi"
+    cost: 7
+  - id: "SF"
+    text: "Quand je reçois la balle, je l'envoie en l'air puis je l'envoie en l'air"
+    cost: 5
+  - id: "SG"
+    text: "Quand je reçois la balle, je l'envoie en l'air puis je la fais rebondir"
+    cost: 5
+  - id: "SH"
+    text: "Quand je reçois la balle, je la fais rebondir puis je l'envoie au robot qui me l'a envoyée"
+    cost: 7
+  - id: "SI"
+    text: "Quand je reçois la balle, je la fais rebondir puis je l'envoie au robot qui est à droite de moi"
+    cost: 7
+  - id: "SJ"
+    text: "Quand je reçois la balle, je l'envoie en l'air puis je la fais rebondir puis je l'envoie en l'air"
+    cost: 7
+  - id: "SK"
+    text: "Quand j'entends 'Air', j'envoie la balle à Alice"
+    cost: 3
+  - id: "SL"
+    text: "Quand un robot secoue son bras, j'envoie la balle au robot qui est à côté du robot qui a secoué son bras"
+    cost: 9
+  - id: "SM"
+    text: "Quand j'entends 'Air', je secoue mon bras"
+    cost: 3
+  - id: "SN"
+    text: "Quand j'entends 'Air', j'envoie la balle à Alice et quand j'entends 'Rebond', j'envoie la balle à Bob"
+    cost: 7
+  - id: "SO"
+    text: "Quand j'entends 'Rebond', je secoue mon bras"
+    cost: 3
+  - id: "SP"
+    text: "Quand j'entends 'Air', j'envoie la balle à Alice et quand j'entends 'Rebond', j'envoie la balle à Bob et quand j'entends 'Les deux', j'envoie la balle à Claire"
+    cost: 11
+  - id: "SQ"
+    text: "Quand je reçois la balle, je l'envoie à Eve"
+    cost: 3
+  - id: "SR"
+    text: "Quand j'entends 'Les deux', je secoue mon bras"
+    cost: 3
+  - id: "SS"
+    text: "Quand j'entends 'Air', j'envoie la balle à Alice et quand j'entends 'Rebond', j'envoie la balle à Bob et quand j'entends 'Les deux', j'envoie la balle à Claire et quand j'entends 'Les trois', j'envoie la balle à David"
+    cost: 15
+  - id: "ST"
+    text: "Quand j'entends 'Les trois', je secoue mon bras"
+    cost: 3
+
+phases:
+  - id: 1
+    type: begin
+    available: []
+    obsolete: []
+    accepted: []
+  - id: 2
+    type: single
+    available:
+      - id: "RB"
+      - id: "RC"
+    obsolete: []
+    accepted:
+      - set:
+          - id: "RB"
+      - set:
+          - id: "RC"
+  - id: 3
+    type: single
+    available:
+      - id: "RD"
+      - id: "RE"
+    obsolete:
+      - id: "RB"
+      - id: "RC"
+    accepted:
+      - set:
+          - id: "RD"
+      - set:
+          - id: "RE"
+  - id: 4
+    type: single
+    available:
+      - id: "RF"
+      - id: "RG"
+    obsolete:
+      - id: "RD"
+    accepted:
+      - set:
+          - id: "RF"
+      - set:
+          - id: "RG"
+  - id: 5
+    type: single
+    available:
+      - id: "RH"
+    obsolete:
+      - id: "RF"
+    accepted:
+      - set:
+          - id: "RH"
+      - set:
+          - id: "RE"
+  - id: 6
+    type: single
+    available:
+      - id: "RI"
+    obsolete:
+      - id: "RH"
+    accepted:
+      - set:
+          - id: "RI"
+      - set:
+          - id: "RE"
+  - id: 7
+    type: single
+    available:
+      - id: "RA"
+    obsolete:
+      - id: "RI"
+    accepted:
+      - set:
+          - id: "RA"
+      - set:
+          - id: "RE"
+  - id: 8
+    type: end
+    available: []
+    obsolete: []
+    accepted: []
+  - id: 9
+    type: begin
+    available: []
+    obsolete: []
+    accepted: []
+  - id: 10
+    type: multi
+    available:
+      - id: "SA"
+      - id: "SB"
+      - id: "SC"
+      - id: "SD"
+      - id: "SE"
+    obsolete: []
+    accepted:
+      - set:
+          - id: "SC"
+      - set:
+          - id: "SD"
+      - set:
+          - id: "SE"
+  - id: 11
+    type: multi
+    available:
+      - id: "SF"
+    obsolete:
+      - id: "SC"
+    accepted:
+      - set:
+          - id: "SE"
+      - set:
+          - id: "SF"
+      - set:
+          - id: "SD"
+          - id: "SA"
+      - set:
+          - id: "SD"
+          - id: "SB"
+  - id: 12
+    type: multi
+    available:
+      - id: "SG"
+      - id: "SH"
+      - id: "SI"
+    obsolete:
+      - id: "SF"
+    accepted:
+      - set:
+          - id: "SG"
+      - set:
+          - id: "SE"
+          - id: "SI"
+  - id: 13
+    type: multi
+    available:
+      - id: "SJ"
+    obsolete:
+      - id: "SG"
+    accepted:
+      - set:
+          - id: "SJ"
+      - set:
+          - id: "SE"
+          - id: "SI"
+  - id: 14
+    type: multi
+    available:
+      - id: "SK"
+      - id: "SL"
+      - id: "SM"
+    obsolete:
+      - id: "SJ"
+    accepted:
+      - set:
+          - id: "SK"
+          - id: "SD"
+      - set:
+          - id: "SK"
+          - id: "SB"
+          - id: "SE"
+      - set:
+          - id: "SL"
+          - id: "SM"
+          - id: "SD"
+      - set:
+          - id: "SL"
+          - id: "SM"
+          - id: "SB"
+          - id: "SE"
+      - set:
+          - id: "SL"
+          - id: "SM"
+          - id: "SA"
+          - id: "SE"
+  - id: 15
+    type: multi
+    available:
+      - id: "SN"
+      - id: "SO"
+    obsolete:
+      - id: "SK"
+    accepted:
+      - set:
+          - id: "SN"
+          - id: "SD"
+          - id: "SH"
+      - set:
+          - id: "SL"
+          - id: "SM"
+          - id: "SO"
+          - id: "SD"
+          - id: "SH"
+      - set:
+          - id: "SL"
+          - id: "SM"
+          - id: "SO"
+          - id: "SD"
+          - id: "SB"
+          - id: "SI"
+      - set:
+          - id: "SL"
+          - id: "SM"
+          - id: "SO"
+          - id: "SD"
+          - id: "SA"
+          - id: "SI"
+      - set:
+          - id: "SL"
+          - id: "SM"
+          - id: "SO"
+          - id: "SH"
+          - id: "SB"
+          - id: "SE"
+      - set:
+          - id: "SL"
+          - id: "SM"
+          - id: "SO"
+          - id: "SH"
+          - id: "SA"
+          - id: "SE"
+      - set:
+          - id: "SL"
+          - id: "SM"
+          - id: "SO"
+          - id: "SB"
+          - id: "SE"
+          - id: "SI"
+      - set:
+          - id: "SL"
+          - id: "SM"
+          - id: "SO"
+          - id: "SA"
+          - id: "SE"
+          - id: "SI"
+  - id: 16
+    type: multi
+    available:
+      - id: "SP"
+      - id: "SQ"
+      - id: "SR"
+    obsolete:
+      - id: "SD"
+      - id: "SH"
+      - id: "SN"
+    accepted:
+      - set:
+          - id: "SP"
+          - id: "SQ"
+          - id: "SE"
+          - id: "SI"
+      - set:
+          - id: "SL"
+          - id: "SM"
+          - id: "SO"
+          - id: "SR"
+          - id: "SA"
+          - id: "SE"
+          - id: "SI"
+      - set:
+          - id: "SL"
+          - id: "SM"
+          - id: "SO"
+          - id: "SR"
+          - id: "SB"
+          - id: "SE"
+          - id: "SI"
+  - id: 17
+    type: multi
+    available:
+      - id: "SS"
+      - id: "ST"
+    obsolete:
+      - id: "SP"
+    accepted:
+      - set:
+          - id: "SS"
+          - id: "SQ"
+          - id: "SE"
+          - id: "SI"
+      - set:
+          - id: "SL"
+          - id: "SM"
+          - id: "SO"
+          - id: "SR"
+          - id: "ST"
+          - id: "SA"
+          - id: "SE"
+          - id: "SI"
+      - set:
+          - id: "SL"
+          - id: "SM"
+          - id: "SO"
+          - id: "SR"
+          - id: "ST"
+          - id: "SB"
+          - id: "SE"
+          - id: "SI"
+  - id: 18
+    type: end
+    available: []
+    obsolete: []
+    accepted: []

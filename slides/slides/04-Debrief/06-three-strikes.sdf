@@ -1,0 +1,12 @@
+## "Three strikes and you refactor"
+//@ [] 00:30
+
+!image(assets/media/three-strikes-A.svg, Three Strikes, 700)
+
+/*
+Il y a un principe qui a été popularisé par Martin Fowler dans son livre sur le refactoring.
+La règle de 3 : on refactore à la 3ème occurrence d'un schéma qui se répète.
+
+En suivant ce principe, ici on serait passé à une solution générique de passe à droite lorsque Ève envoie la balle à Fred.
+C'est un compromis acceptable qui nous fait terminer le match avec un coût de 17.
+*/

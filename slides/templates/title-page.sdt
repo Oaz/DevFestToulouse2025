@@ -1,0 +1,12 @@
+<div class="transition-page">
+    <div class="image-section"></div>
+    <div class="text-section">
+        <div class="title"><sd-heading /></div>
+        <div class="subtitle"><sd-subtitle /></div>
+        <div class="author"><sd-author /></div>
+    </div>
+</div>
+
+<aside class="sd-notes">
+<sd-notes />
+</aside>

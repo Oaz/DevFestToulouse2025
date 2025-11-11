@@ -1,0 +1,53 @@
+## Avoir des principes
+//@ [] 01:00
+
+```mermaid
+mindmap
+  Principes
+    Misc
+      DRY - Dont Repeat Yourself
+      KISS - Keep It Simple, Stupid
+      YAGNI - You Arent Gonna Need It
+      Least Astonishment
+      Least Knowledge - Law of Demeter
+      Three Strikes and You Refactor
+      Tell, Dont Ask
+      Composition Over Inheritance
+      Program to an Interface
+    SOLID
+      Single Responsibility
+      Open/Closed
+      Liskov Substitution
+      Interface Segregation
+      Dependency Inversion
+    Package Cohesion
+      Release Reuse Equivalency
+      Common Closure
+      Common Reuse
+    Package Coupling
+      Acyclic Dependencies
+      Stable Dependencies
+      Stable Abstractions
+    GRASP
+      Information Expert
+      Creator
+      Controller
+      Low Coupling
+      High Cohesion
+      Polymorphism
+      Pure Fabrication
+      Indirection
+      Protected Variations
+    ...
+```
+
+/*
+Ma deuxième conclusion c'est, très simplement, ayez des principes.
+Il y en a des dizaines, ce schéma est loin d'être exhaustif.
+
+Les quelques principes que l'on vient de voir : responsabilité unique, ouvert/fermé, inversion des dépendances font partie d'un groupe que l'on appelle SOLID, ici en bleu. Traditionnellement ils sont associés à la programmation orientée objet mais, ne vous y trompez pas, ils sont tout à fait valables dans n'importe quel paradigme de programmation.
+
+Et, surtout, savoir écrire du code, c'est utile mais avec les outils qu'on a aujourd'hui c'est devenu ce que l'on appelle en économie une commodité, c'est à dire un produit de consommation courante largement standardisé.
+Ce n'est pas du tout le cas pour les principes de conception qui vont permettre de créer de la valeur dans la durée. Je trouve donc plus intéressant d'investir sur ces aspects là plutôt que sur la virtuosité dans l'écriture de code. Le code, il faut surtout savoir le lire et le comprendre.
+
+*/

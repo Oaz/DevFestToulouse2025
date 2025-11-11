@@ -1,0 +1,19 @@
+## Résultats du match aller
+//@ [] 00:30
+
+```plotly
+showHumanScores(part1)
+```
+
+```plotly
+showAiScores(part1)
+```
+
+/*
+Si on regarde les résultats du match aller, que constate-t-on ?
+
+Les IA ont fait très fort.
+De manière assez inexplicable, 15% d'entre elles ont fait le choix de faire générique dès la première passe à droite tout en faisant spécifique lors des autres passes.
+Et ça leur donne le coût minimal de 11. Impossible de faire mieux.
+
+*/

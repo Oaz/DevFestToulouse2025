@@ -1,0 +1,1743 @@
+[
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3
+    },
+    "Score": 33
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4,
+      "RG": 4
+    },
+    "Score": 19
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 6,
+      "RF": 4,
+      "RH": 5
+    },
+    "Score": 17
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 13
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4,
+      "RG": 5
+    },
+    "Score": 19
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 13
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 6,
+      "RF": 4,
+      "RG": 4,
+      "RH": 5
+    },
+    "Score": 22
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RG": 4,
+      "RH": 5
+    },
+    "Score": 19
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 13
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 13
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4,
+      "RH": 5
+    },
+    "Score": 17
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 13
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RG": 7,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 25
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 23
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RC": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 15
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4,
+      "RG": 4,
+      "RH": 5
+    },
+    "Score": 22
+  },
+  {
+    "Assets": {
+      "RC": 2,
+      "RD": 3,
+      "RE": 6,
+      "RF": 4,
+      "RH": 5
+    },
+    "Score": 19
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 6,
+      "RF": 4,
+      "RH": 5
+    },
+    "Score": 17
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RC": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 15
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 13
+  },
+  {
+    "Assets": {
+      "RC": 2,
+      "RD": 3,
+      "RE": 4,
+      "RF": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 6,
+      "RF": 4,
+      "RG": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 25
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3
+    },
+    "Score": 33
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 13
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RG": 7,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 25
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 13
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 23
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RG": 4,
+      "RH": 5
+    },
+    "Score": 19
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RG": 4,
+      "RH": 5
+    },
+    "Score": 19
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 6,
+      "RF": 4,
+      "RH": 5
+    },
+    "Score": 17
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RC": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 15
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 13
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RC": 2,
+      "RD": 3,
+      "RE": 7,
+      "RG": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 27
+  },
+  {
+    "Assets": {
+      "RC": 2,
+      "RD": 3,
+      "RE": 5,
+      "RG": 4
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 6,
+      "RF": 4,
+      "RH": 5
+    },
+    "Score": 17
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 13
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 6,
+      "RG": 4,
+      "RH": 5
+    },
+    "Score": 19
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RC": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 15
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RC": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 15
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 6,
+      "RF": 4,
+      "RH": 5
+    },
+    "Score": 17
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 13
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RG": 7,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 23
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RG": 7,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 25
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RG": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 23
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RC": 2,
+      "RD": 3,
+      "RE": 6,
+      "RF": 4,
+      "RH": 5
+    },
+    "Score": 19
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 23
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4,
+      "RG": 4,
+      "RH": 5
+    },
+    "Score": 22
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4,
+      "RG": 4
+    },
+    "Score": 19
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 6,
+      "RF": 4,
+      "RH": 5
+    },
+    "Score": 17
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RC": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 15
+  },
+  {
+    "Assets": {
+      "RC": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 15
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4,
+      "RG": 4,
+      "RH": 5
+    },
+    "Score": 22
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 23
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RC": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 15
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 6,
+      "RF": 4,
+      "RH": 5
+    },
+    "Score": 17
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 18
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  },
+  {
+    "Assets": {
+      "RC": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 15
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 13
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 4,
+      "RG": 4
+    },
+    "Score": 16
+  },
+  {
+    "Assets": {
+      "RC": 2,
+      "RE": 3,
+      "RG": 4
+    },
+    "Score": 15
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4,
+      "RG": 4
+    },
+    "Score": 19
+  },
+  {
+    "Assets": {
+      "RA": 7,
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 23
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 6,
+      "RF": 4,
+      "RH": 5
+    },
+    "Score": 17
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 6,
+      "RF": 4,
+      "RH": 5
+    },
+    "Score": 17
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4,
+      "RG": 4
+    },
+    "Score": 19
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RF": 4
+    },
+    "Score": 33
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 7,
+      "RF": 4,
+      "RH": 5,
+      "RI": 6
+    },
+    "Score": 20
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RD": 3,
+      "RE": 5,
+      "RF": 4
+    },
+    "Score": 14
+  },
+  {
+    "Assets": {
+      "RB": 2,
+      "RE": 3,
+      "RF": 4
+    },
+    "Score": 11
+  }
+]

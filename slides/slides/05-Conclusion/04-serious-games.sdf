@@ -1,0 +1,23 @@
+## Jouer sérieusement .[serious-games bigqr]
+//@ [] 01:10
+
+"Software development is a cooperative game of invention and communication" - Alistair Cockburn
+
+<div class="side-by-side">
+<video width="900" controls>
+<source src="assets/media/softwareball.mp4" type="video/mp4">
+</video>
+<div class='sd-qrcode' data-url='https://olivier.azeau.com/games'></div>
+</div>
+
+https://olivier.azeau.com/games
+
+/*
+Ma troisième conclusion c'est de l'auto-promo. En général, on se présente au début. Moi je le fais à la fin. C'est plus facile pour décider si ça vous intéresse ou non.
+
+Le QR code envoie sur une page contenant des jeux que j'ai créés depuis quelques années. Le jeu auquel on vient de jouer est largement inspiré d'un jeu qui s'appelle "SoftwareBall" et qui propose des challenges de conception en équipe avec une balle. Sur cette video, vous reconnaitrez peut être la séquence du match aller avec la circulation de la balle en L.
+
+Alistair Cockburn a défini le développement logiciel comme un jeu coopératif d'invention et de communication.
+J'aime bien les jeux, surtout les jeux utiles dans un contexte professionnel. Et j'aime introduire des éléments de ludification dans les activités pro. Cette présentation vous a peut être donné l'envie de creuser ce sujet. Si c'est le cas j'en suis très content.
+
+*/

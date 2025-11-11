@@ -1,0 +1,12 @@
+## Des modèles qui surprennent
+//@ [] 00:40
+
+!image(assets/media/score_distribution_part1.svg, Score Distribution, 1200)
+
+/*
+Quand j'ai commencé à travailler sur ce sujet avec les LLMs, j'avais cette session acceptée pour ce DevFest mais je ne savais pas où ça aller me mener.
+
+Sur le premier exercice, le match aller, j'ai été assez surpris par les résultats. J'ai utilisé beaucoup de petits modèles à 7 ou 8 milliards de paramètres qui peuvent tourner localement avec 8Gb de mémoire GPU.
+
+Les questions étaient assez fermées mais les résultats ont été bons dans le sens où la plupart des modèles ont détecté d'eux-mêmes l'intérêt d'un refactoring.
+*/

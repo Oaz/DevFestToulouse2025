@@ -1,0 +1,18 @@
+## Dependency Inversion Principle .[mainimg]
+//@ [] 00:50
+
+!image(assets/media/dependencies-inverted.svg, Inversion de dépendances)
+
+/*
+La solution, c'est le principe d'inversion des dépendances.
+
+On a un composant central dont le code ne bouge pas -il réagit aux mouvement de bras- et d'autres composant le connaissent.
+
+On parle d'inversion de dépendances car, le plus souvent, les dépendances de code vont dans le même sens que l'exécution du programme. Une fonction connait la fonction qu'elle appelle.
+Ici l'exécution du programme, c'est le déplacement de la balle.
+On dit qu'on inverse les dépendances car, dans cette conception, la dépendance de code est dans le sens opposé au déplacement de la balle.
+
+Alice va envoyer la balle aux autres robots mais elle n'a aucune idée de ce que les autres vont en faire.
+Elle ne connait d'ailleurs même pas le nom de ces robots car elle n'en dépend pas.
+
+*/

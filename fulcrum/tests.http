@@ -1,0 +1,65 @@
+### move to phase 1
+POST http://localhost:8080/forward
+Content-Type: application/json
+
+{
+  "admin_password": "foobar",
+  "phase_id": 1
+}
+
+### register a player
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+  "username": "{{$random.address.firstName}}"
+}
+
+### move to phase 2
+POST http://localhost:8080/forward
+Content-Type: application/json
+
+{
+  "admin_password": "foobar",
+  "phase_id": 2
+}
+
+### fail to get player 1 status
+POST http://localhost:8080/status
+Content-Type: application/json
+
+{
+  "player_id": 1,
+  "secret": "yolo"
+}
+
+### get player 1 status
+POST http://localhost:8080/status
+Content-Type: application/json
+
+{
+  "player_id": 1,
+  "secret": "Z-PTO6fSRgMp1pxflyJtoQ=="
+}
+
+### get player 2 status
+POST http://localhost:8080/status
+Content-Type: application/json
+
+{
+  "player_id": 2,
+  "secret": "Eza8uFXdZ-GNtdk-3ETd8Q=="
+}
+
+### player 1 select
+POST http://localhost:8080/select
+Content-Type: application/json
+
+{
+  "player_id": 1,
+  "secret": "Z-PTO6fSRgMp1pxflyJtoQ==",
+  "phase_id": 2,
+  "asset_ids": [
+    "RB"
+  ]
+}

@@ -1,0 +1,13 @@
+## Une vision globale des occurrences
+//@ [] 00:40
+
+!image(assets/media/three-strikes-B.svg, Three Strikes Again, 700)
+
+/*
+Une autre façon de voir les choses c'est de se dire que, en faisant pivoter Alice de 90°, on peut aussi utiliser la passe à droite entre Alice et Bob.
+On peut donc utiliser 3 fois cette passe à droite en l'introduisant lorsque David envoie la balle à Ève et on peut terminer le match avec un coût de seulement 14.
+
+Je pense que ici c'était le choix le plus logique. La règle de 3 ne s'applique pas seulement aux cas d'usages évidents.
+Quand on réfléchit à l'introduction d'un composant générique, il faut regarder globalement où il va avoir un intérêt.
+Il faut profiter de l'occasion pour simplifier notre base de code en retirant du code devenu inutile.
+*/

@@ -1,0 +1,16 @@
+[Unit]
+Description=Devfest 2025
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/fulcrum
+ExecStart=/opt/fulcrum/devfest2025
+Restart=always
+RestartSec=2
+
+
+[Install]
+WantedBy=multi-user.target

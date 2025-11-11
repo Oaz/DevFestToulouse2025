@@ -1,0 +1,22 @@
+## Extensibilité
+//@ [] 00:30
+
+```plotly
+compareRelativeTrends(part2, [
+["En l'air","SC",10],
+["En l'air x2","SF", 11],
+["Air puis Rebond","SG",12],
+["Air puis Rebond puis Air","SJ",13],
+])
+```
+
+Proportions de choix NON extensibles parmi les réponses n'ayant pas encore généralisé
+
+/*
+Et cet aspect "lego", on le retrouve dans les étapes suivantes.
+
+2x en l'air, air puis rebond, air-rebond-air, il y avait toujours la possibilité d'utiliser un seul robot avec un code dédié au besoin exact.
+
+TRÈS mauvaise idée mais c'est ce qu'ont fait les IA dans leur très grande majorité, pour un coût monstrueux au final.
+
+*/

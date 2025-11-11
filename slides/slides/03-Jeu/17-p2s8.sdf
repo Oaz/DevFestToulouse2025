@@ -1,0 +1,43 @@
+## Partie 2 Story 8 .[user-story bigchart]
+//@ [] 00:40
+
+```plotly
+startPhase(17)
+```
+
+```plotly
+showTimer(40)
+```
+
+"À chaque fois que l'utilisateur dit 'Air', la balle doit aller en l'air.<br>À chaque fois que l'utilisateur dit 'Rebond', la balle doit rebondir.<br>À chaque fois que l'utilisateur dit 'Les deux', la balle doit aller en l'air puis rebondir.<br>À chaque fois que l'utilisateur dit 'Les trois',<br>la balle doit aller en l'air puis rebondir puis aller en l'air."
+
+```mermaid
+flowchart TD
+  Start --> Air --> BalleAir --> Start
+  Start --> Rebond --> BalleRebond --> Start
+  Start --> LesDeux --> BalleAir2 --> BalleRebond2 --> Start
+  Start --> LesTrois --> BalleAir3 --> BalleRebond3 --> BalleAir3b --> Start
+  Start:::startStyle@{ shape: framed-circle }
+  Air(fa:fa-comment Air):::talkStyle@{ shape: curv-trap }
+  Rebond(fa:fa-comment Rebond):::talkStyle@{ shape: curv-trap }
+  LesDeux(fa:fa-comment Les deux):::talkStyle@{ shape: curv-trap }
+  LesTrois(fa:fa-comment Les trois):::talkStyle@{ shape: curv-trap }
+  BalleAir:::plainStyle@{ img: "assets/media/air.svg", h: 80, constraint: "on" }
+  BalleRebond:::plainStyle@{ img: "assets/media/rebond.svg", h: 80, constraint: "on" }
+  BalleAir2:::plainStyle@{ img: "assets/media/air.svg", h: 80, constraint: "on" }
+  BalleRebond2:::plainStyle@{ img: "assets/media/rebond.svg", h: 80, constraint: "on" }
+  BalleAir3:::plainStyle@{ img: "assets/media/air.svg", h: 80, constraint: "on" }
+  BalleRebond3:::plainStyle@{ img: "assets/media/rebond.svg", h: 80, constraint: "on" }
+  BalleAir3b:::plainStyle@{ img: "assets/media/air.svg", h: 80, constraint: "on" }
+
+  classDef plainStyle fill:none,stroke:none
+  classDef talkStyle fill:#E0A4D5,stroke:#962C82,stroke-width:1px
+  classDef startStyle fill:#9771BE,stroke:#481C75,stroke-width:2px
+```
+
+/*
+Dernière étape du jeu, après on va dire stop à notre client.
+
+On conserve les interactions précédentes et on en rajoute une :
+À chaque fois que l'utilisateur dit 'Les trois', la balle va en l'air, puis rebondit, puis va en l'air.
+*/

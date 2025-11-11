@@ -1,0 +1,34 @@
+## Partie 2 Story 5 .[user-story bigchart]
+//@ [] 01:00
+
+```plotly
+startPhase(14)
+```
+
+```plotly
+showTimer(60)
+```
+
+### "À chaque fois que l'utilisateur dit 'Air', la balle doit aller en l'air."
+
+```mermaid
+flowchart LR
+  Start --> Air --> BalleAir --> Start
+  Start:::startStyle@{ shape: framed-circle }
+  Air(fa:fa-comment Air ):::talkStyle@{ shape: curv-trap }
+  BalleAir:::plainStyle@{ img: "assets/media/air.svg", h: 80, constraint: "on" }
+
+  classDef plainStyle fill:none,stroke:none
+  classDef talkStyle fill:#E0A4D5,stroke:#962C82,stroke-width:1px
+  classDef startStyle fill:#9771BE,stroke:#481C75,stroke-width:2px
+```
+
+/*
+Le client a eu du feedback de la part des utilisateurs et, en fait, ça serait bien d'avoir un système interactif.
+
+On veut que, à chaque fois que l'utilisateur dit 'Air', la balle aille en l'air.
+
+(mimer l'US avec la balle en répétant le cycle plusieurs fois)
+
+On doit obligatoirement utiliser au moins 2 robots mais plusieurs combinaisons sont possibles.
+*/

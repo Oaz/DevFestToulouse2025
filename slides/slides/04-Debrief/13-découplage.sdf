@@ -1,0 +1,24 @@
+## Découplage
+//@ [] 00:40
+
+```plotly
+compareRelativeTrends(part2, [
+["Air","SK",14],
+["Air ou Rebond","SN",15],
+["Air, Rebond ou les deux","SP",16],
+["Air, Rebond, les deux ou les trois","SS",17],
+])
+```
+
+Proportions de choix fortement couplés par rapport à la totalité des réponses ayant fourni une solution
+
+/*
+Et, enfin, la phase finale, celle du système interactif.
+
+L'enjeu était de savoir à quel point on allait coupler la prise de décision sur les interactions utilisateur avec l'action à réaliser dans chacun des cas.
+
+Il y avait la voie de la facilité. Un composant central qui orchestre tout, qui connait tout le monde Alice, Bob, Claire, David, qui connait toutes les actions possibles et distribue la balle à des exécutants.
+
+C'est la voie qu'ont choisie très majoritairement les IA.
+
+*/

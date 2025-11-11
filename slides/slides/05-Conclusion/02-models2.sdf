@@ -1,0 +1,14 @@
+## Des modèles qui se traînent
+//@ [] 01:00
+
+!image(assets/media/score_distribution_part2.svg, Score Distribution, 1200)
+
+/*
+Et ma surprise a été encore plus grande quand, au match retour, j'ai vu la plupart des modèles complètement dans les choux, même ceux les plus utilisés pour écrire du code.
+Et les rares qui ont réussi à aller au bout ont fait des scores médiocres.
+
+MA conclusion c'est que les LLMs, dans leur mécanique de base, ne savent pas concevoir des logiciels. Ils sont très forts pour générer du code, voire du bon code. Moi je les utilise tous les jours mais en l'état, je ne vais pas leur confier la conception de mon logiciel.
+
+Tous ces LLMs "connaissent" la théorie des principes que l'on a évoqués mais, dans une situation relativement abstraite comme il en arrive souvent, ces principes ne sont pas mis en oeuvre.
+Peut être qu'un jour d'autres mécanismes existeront mais, pour l'instant, je laisse faire ce qu'ils savent plutôt bien faire, écrire du code mais je garde la main à 100% sur l'organisation de ce code.
+*/
