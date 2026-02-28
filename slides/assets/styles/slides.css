@@ -159,3 +159,7 @@ svg text {
     padding: 1rem 2rem;
     line-height: 1.2;
 }
+
+svg[id^="mermaid-"] {
+	min-width: 1200px; max-width: 1200px; 
+}
