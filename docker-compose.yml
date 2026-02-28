@@ -1,0 +1,66 @@
+name: DevFestToulouse2025
+
+services:
+
+  fulcrum:
+    build:
+      context: .
+      dockerfile: fulcrum/Dockerfile
+    ports:
+      - "${API_PORT}:8086"
+    environment:
+      - REDIS_ADDRESS=redis:6379
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+    depends_on:
+      - redis
+    restart: unless-stopped
+    networks:
+      - local_net
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    restart: unless-stopped
+    networks:
+      - local_net
+
+  oaz-slides:
+    build:
+      context: slides/
+      dockerfile: Dockerfile
+    ports:
+      - "1337:1337"
+    environment:
+      - API_URL=${API_URL}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - FRONT_URL=${FRONT_URL}
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    networks:
+      - local_net
+
+  oaz-webapp:
+    build:
+      context: .
+      dockerfile: webapp/Dockerfile
+    ports:
+      - "${FRONT_PORT}:5173"
+    environment:
+      - API_URL=${API_URL}
+    restart: unless-stopped
+    networks:
+      - client_net
+
+networks:
+  local_net:
+    driver: bridge
+  client_net:
+    driver: bridge
+
+volumes:
+  redis-data:
+    driver: local
