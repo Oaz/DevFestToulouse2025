@@ -18,7 +18,7 @@ import (
 // @title Game API
 // @version 1.0
 // @description API Server for Game Application
-// @host localhost:8080
+// @host localhost:8086
 // @BasePath /
 func main() {
 	// Load environment variables
@@ -34,7 +34,7 @@ func main() {
 
 	serverAddr := os.Getenv("SERVER_ADDRESS")
 	if serverAddr == "" {
-		serverAddr = ":8080" // Default fallback
+		serverAddr = ":8086" // Default fallback
 	}
 	serverDomain := os.Getenv("SERVER_DOMAIN")
 
