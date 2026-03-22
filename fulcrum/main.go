@@ -15,10 +15,28 @@ import (
 	"github.com/joho/godotenv"
 )
 
+func WithCORS(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+
+		w.Header().Set("Access-Control-Allow-Origin", "*")
+		w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
+		w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
+		w.Header().Set("Access-Control-Max-Age", "86400")
+
+		// Gestion du preflight
+		if r.Method == http.MethodOptions {
+			w.WriteHeader(http.StatusOK)
+			return
+		}
+
+		next.ServeHTTP(w, r)
+	})
+}
+
 // @title Game API
 // @version 1.0
 // @description API Server for Game Application
-// @host localhost:8080
+// @host localhost:8086
 // @BasePath /
 func main() {
 	// Load environment variables
@@ -34,7 +52,7 @@ func main() {
 
 	serverAddr := os.Getenv("SERVER_ADDRESS")
 	if serverAddr == "" {
-		serverAddr = ":8080" // Default fallback
+		serverAddr = ":8086" // Default fallback
 	}
 	serverDomain := os.Getenv("SERVER_DOMAIN")
 
@@ -57,11 +75,11 @@ func main() {
 
 	if serverDomain == "" {
 		log.Printf("Starting http server on %s", serverAddr)
-		log.Fatal(http.ListenAndServe(serverAddr, apiHandler))
+		log.Fatal(http.ListenAndServe(serverAddr, WithCORS(apiHandler)))
 	} else {
 		server := &http.Server{
 			Addr:    serverAddr,
-			Handler: apiHandler,
+			Handler: WithCORS(apiHandler),
 		}
 		certFile := "fullchain.pem"
 		keyFile := "privkey.pem"

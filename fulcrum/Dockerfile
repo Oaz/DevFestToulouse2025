@@ -59,7 +59,7 @@ COPY --from=builder /opt/fulcrum/.env* ./
 USER fulcrumuser
 
 # Expose the application port
-EXPOSE 8080
+EXPOSE 8086
 
 # Command to run the application
 CMD ["./fulcrum"]

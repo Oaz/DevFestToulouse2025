@@ -1,6 +1,6 @@
 #!/bin/bash
 
-API='http://localhost:8080'
+API='http://localhost:8086'
 export ADMIN_PASSWORD='whatever'
 
 function waitKey() {
