@@ -29,10 +29,7 @@ const rulesPlugin = {
 }
 
 export default defineConfig(({ command }) => {
-    const isProduction = command === 'build';
-    const GAME_API_URL = isProduction
-        ? 'https://fulcrum.mnt.space:4730'
-        : 'http://localhost:8080';
+    const GAME_API_URL = process.env.API_URL ?? "http://localhost:8086"
 
     return {
         plugins: [

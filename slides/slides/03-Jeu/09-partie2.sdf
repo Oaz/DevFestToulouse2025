@@ -5,9 +5,9 @@
 startPart(9)
 ```
 
-<div class='sd-qrcode' data-url='https://devfest2025.azeau.com/'></div>
+<div class='sd-qrcode' data-url='++FRONT_URL++'></div>
 
-https://devfest2025.azeau.com/
+++FRONT_URL++
 
 /*
 Si des personnes n'ont pas pu participer au match aller, elles peuvent se connecter et jouer le match retour car on repart d'une base de code vide.
